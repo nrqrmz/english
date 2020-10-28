@@ -52,10 +52,44 @@ table {
 /* ROOT */
 
 :root{
-  --black-omine: #333;
+	--black-o-mine: #333;
+	--white-o-mine: #eee;
 }
 /* ---------  HEADER ---------------- */
-.navbar{
-	background-color: var(--black-omine);
-	height: 100px;
+header {
+	display: flex;
 }
+.navbar{
+	background-color: var(--black-o-mine);
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0%;
+}
+
+.fa-home {
+	color: var(--white-o-mine);
+	border: 3px solid var(--white-o-mine);
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.fa-scroll {
+	color: var(--white-o-mine);
+	border: 3px solid var(--white-o-mine);
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.fa-chalkboard-teacher {
+	color: var(--white-o-mine);
+	border: 3px solid var(--white-o-mine);
+	border-radius: 50px;
+	padding: 10px;
+}
+
+main {
+	background-color: var(--white-o-mine);
+	height: 140vh;
+}
+
